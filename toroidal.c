@@ -43,10 +43,10 @@ int main(int argc, char *argv[]){
     MPI_Status status;
 
     /* Nodos (rank) vecinos de un rank */
-    /* ¡¡¡NOTA!!! Intentar implementar con vectores para mayor claridad */
-    int vecinoNorte, vecinoSur, vecinoIzq, vecinoDch;
+    /* int vecinoNorte, vecinoSur, vecinoIzq, vecinoDch; */
+    /* Finalmente implementado con vectores */
     int vecinos[L];
-    /* Por ejemplo, vecinos[0]-> vecinoNorte 
+    /*               vecinos[0]-> vecinoNorte 
                     vecinos[1]-> vecinoSur
                     vecinos[2]-> vecinoIzq
                     vecinos[3]-> vecinoDch */
